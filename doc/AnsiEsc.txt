@@ -39,6 +39,12 @@ Copyright: (c) 2004-2017 by Charles E. Campbell		*AnsiEsc-copyright*
 		:AnsiEsc   -- toggles Ansi escape sequence highlighting
 		:AnsiEsc!  -- rebuilds highlighting for new/removed three
 		              or more element Ansi escape sequences.
+		
+	AUTOMATION
+		To always load AnsiEsc when Vim loads, place the following in
+		your .vimrc:
+		
+		autocmd VimEnter * AnsiEsc
 
 	RESULT~
 		Ansi escape sequences become concealed or ignored (depending
